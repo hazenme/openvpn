@@ -8,7 +8,7 @@ fi
 
 # yes, this checks for host headers/libs. run git diff config.h afterwards to check...
 autoreconf -fvi
-./configure --enable-password-save --enable-iproute2 --disable-pkcs11 --disable-selinux --with-ifconfig-path=/system/bin/ifconfig --with-iproute-path=/system/bin/ip --with-route-path=/system/bin/route --with-netstat-path=/system/bin/netstat
+./configure --enable-password-save --enable-iproute2 --disable-pkcs11 --disable-selinux
 
 { awk -f configure_h.awk config.h && \
   awk -f configure_log.awk config.log
