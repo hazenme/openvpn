@@ -564,7 +564,7 @@
 #define IFCONFIG_PATH "/system/xbin/ifconfig"
 
 /* Path to iproute tool */
-#define IPROUTE_PATH "/system/bin/ip"
+#define IPROUTE_PATH "/system/xbin/ip"
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
@@ -604,7 +604,7 @@
 #define RETSIGTYPE void
 
 /* Path to route tool */
-#define ROUTE_PATH "/system/bin/route"
+#define ROUTE_PATH "/system/xbin/route"
 
 /* SIGHUP replacement */
 /* #undef SIGHUP */
